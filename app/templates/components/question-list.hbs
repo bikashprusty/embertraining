@@ -1,0 +1,14 @@
+{{#each model.questions as |question|}}
+  <article class="listing">
+    <div class="details">
+        <span><img src={{question.avatar}} alt=""></span>
+      <h3></h3>
+      <div class="detail avatar">
+        <span>{{question.question}}</span>
+      </div>
+      <div class="detail user">
+        <span>{{question.user}}</span> 
+      </div>
+    </div>
+  </article>
+{{/each}}
